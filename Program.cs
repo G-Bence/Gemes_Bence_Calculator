@@ -35,6 +35,17 @@ namespace Calculator
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter the first number: ");
+            double num_1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Please enter the second number: ");
+            double num_2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Please enter the operational sign (+, - , *, /, %: ");
+            char op_sign = Convert.ToChar(Console.ReadLine());
+    
+
+            Console.ReadKey();
         }
     }
 }
