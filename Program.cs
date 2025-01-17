@@ -23,6 +23,11 @@ namespace Calculator
             return value_a / value_b;
         }
 
+        static double Multiplying(double value_a, double value_b)
+        {
+            return value_a * value_b;
+        }
+
         static void Main(string[] args)
         {
         }
