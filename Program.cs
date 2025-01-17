@@ -28,6 +28,11 @@ namespace Calculator
             return value_a * value_b;
         }
 
+        static double Percentage(double value_a, double value_b)
+        {
+            return value_b * (value_a/100);
+        }
+
         static void Main(string[] args)
         {
         }
