@@ -12,6 +12,12 @@ namespace Calculator
         {    
             return value_a + value_b;
         }
+
+        static int Subtraction(int value_a, int value_b)
+        {
+            return value_a - value_b;
+        }
+
         static void Main(string[] args)
         {
         }
