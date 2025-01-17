@@ -8,14 +8,19 @@ namespace Calculator
 {
     internal class Program
     {
-        static int Adding(int value_a, int value_b)
+        static double Adding(double value_a, double value_b)
         {    
             return value_a + value_b;
         }
 
-        static int Subtraction(int value_a, int value_b)
+        static double Subtraction(double value_a, double value_b)
         {
             return value_a - value_b;
+        }
+
+        static double Division(double value_a, double value_b)
+        {
+            return value_a / value_b;
         }
 
         static void Main(string[] args)
