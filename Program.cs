@@ -8,6 +8,10 @@ namespace Calculator
 {
     internal class Program
     {
+        static int Adding(int value_a, int value_b)
+        {    
+            return value_a + value_b;
+        }
         static void Main(string[] args)
         {
         }
